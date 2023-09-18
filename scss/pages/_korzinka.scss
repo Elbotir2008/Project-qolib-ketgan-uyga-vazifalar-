@@ -1,0 +1,101 @@
+main {
+  .container {
+    .korzinka-title {
+      margin-top: 50px;
+      margin-bottom: 50px;
+      span {
+        margin-bottom: 10px;
+      }
+      h1 {
+        font-size: 35px;
+        font-family: sans-serif;
+      }
+    }
+    .parameters {
+      gap: 30px;
+      align-items: center;
+      margin-bottom: 20px;
+      input {
+        margin-left: -20px;
+      }
+      label {
+        color: #70b95b;
+        font-weight: 700;
+        font-size: 18px;
+      }
+      h5 {
+        a {
+          font-weight: 700;
+          font-size: 17px;
+        }
+      }
+    }
+    .korzinka-body {
+      width: 100%;
+      gap: 20px;
+      .korzinka-left {
+        width: 70%;
+      }
+      .korzinka-right {
+        margin-top: 20px;
+        width: 30%;
+        .click-box {
+          width: 40px;
+          height: 20px;
+          border-radius: 30px;
+          background-color: #70b95b;
+          padding: 1.5px;
+          margin-right: 10px;
+          .click {
+            width: 17px;
+            height: 17px;
+            background-color: #fff;
+            border-radius: 50%;
+          }
+        }
+        h6 {
+          margin-top: 20px;
+          margin-bottom: 30px;
+          font-size: 15px;
+          color: gray;
+        }
+        .korzinka-flex {
+          margin-bottom: 20px;
+          justify-content: space-between;
+        }
+        .priceflex-class {
+          justify-content: space-between;
+          h5 {
+            font-weight: 900;
+            color: #000;
+            font-size: 20px;
+          }
+        }
+        .myphar {
+          color: #70b95b;
+          font-weight: 700;
+          text-align: center;
+          margin-top: 20px;
+        }
+        .btn-one {
+          background-color: red;
+          color: #fff;
+          padding: 5px;
+          border-radius: 5px;
+          margin-left: 30px;
+          margin-top: 10px;
+          width: 200px;
+        }
+        .btn-two {
+          background-color: #fcd4b9;
+          color: #e79b7f;
+          font-size: 20px;
+          padding: 15px 50px;
+          margin-top: 10px;
+          margin-left: 30px;
+          border-radius: 5px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tovars</title>
+    <link rel="stylesheet" href="../scss/style.css" />
+  </head>
+  <body>
+    <div class="modal" id="modal">
+      <div class="modal-body">
+        <button class="close-button" id="close-button">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            height="1em"
+            viewBox="0 0 384 512"
+          >
+            <path
+              d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"
+            />
+          </svg>
+        </button>
+        <h2>Вход</h2>
+        <form>
+          <label for="btn">Телефон</label>
+          <input type="text" id="btn" placeholder="+7 912" />
+          <button type="submit">Вход</button>
+        </form>
+        <div class="flex-class">
+          <button class="modal-btn1">Регистрация</button>
+          <button class="modal-btn2">Забыли пароль?</button>
+        </div>
+      </div>
+    </div>
+    <header>
+      <div class="container">
+        <nav>
+          <div class="logo">
+            <a href="#"
+              ><img src="../fonts/images/articles/Logo.png" alt=""
+            /></a>
+          </div>
+          <div class="nav-items">
+            <button class="nav-btn" id="catalog-btn">
+              <img
+                src="../fonts/images/articles/nav-btn-img/feather-icon/menu.png"
+                alt=""
+              />
+              Каталог
+            </button>
+            <form action="/action_page.php">
+              <input type="text" name="fname" placeholder="Найти товар" />
+              <img
+                src="./fonts/images/articles/search.png"
+                alt=""
+                class="res-imge"
+              />
+            </form>
+            <div class="nav-links">
+              <div class="nav-link">
+                <a>
+                  <img
+                    src="../fonts/images/articles/nav-link-img1.png"
+                    alt=""
+                  />
+                  <p>Избранное</p>
+                </a>
+              </div>
+              <div class="nav-link">
+                <a href="#"
+                  ><img
+                    src="../fonts/images/articles/nav-link-img2.png"
+                    alt=""
+                  />
+                  <p>продукты</p></a
+                >
+              </div>
+              <div class="nav-link">
+                <a href="#"
+                  ><img
+                    src="../fonts/images/articles/nav-link-img3/feather-icon/shopping-cart.png"
+                    alt=""
+                  />
+                  <p>Корзина</p></a
+                >
+              </div>
+            </div>
+            <div class="nav-person" id="open-modal">
+              <img
+                src="../fonts/images/articles/User-img.png"
+                alt="icon"
+                width="40"
+                height="40"
+              />
+              <p>USER</p>
+              <img src="../fonts/images/articles/bottom-img.png" alt="" />
+            </div>
+          </div>
+        </nav>
+        <div class="catalog grid-class" id="catalog-card">
+          <ul>
+            <li><a href="#">Молоко, сыр, яйцо</a></li>
+            <li><a href="#">Хлеб</a></li>
+            <li><a href="#">Фрукты и овощи</a></li>
+            <li><a href="#">Замороженные продукты</a></li>
+          </ul>
+          <ul>
+            <li><a href="#">Напитки</a></li>
+            <li><a href="#" class="redtext">Кондитерские изделия</a></li>
+            <li><a href="#">Чай, кофе</a></li>
+          </ul>
+          <ul>
+            <li><a href="#">Бакалея</a></li>
+            <li><a href="#">Здоровое питание</a></li>
+            <li><a href="#">Зоотовары</a></li>
+          </ul>
+          <ul>
+            <li><a href="#">Непродовольственные товары</a></li>
+            <li><a href="#">Детское питание</a></li>
+            <li><a href="#">Мясо, птица, колбаса</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <div class="tovar-title">
+          <h1>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae,
+            quaerat.
+          </h1>
+          <img src="../fonts/images/articles/star.png" alt="" />
+          <span>Share ></span>
+          <span>Like ></span>
+          <span>Gift ></span>
+          <span>Like ></span>
+        </div>
+        <div class="tovar-body flex-class">
+          <div class="tovar-left flex-class">
+            <div class="indicators">
+              <img src="../fonts/images/articles/amico1.svg" alt="" />
+              <img src="../fonts/images/articles/amico2.svg" alt="" />
+              <img src="../fonts/images/articles/amico3.svg" alt="" />
+              <img src="../fonts/images/articles/hero-img.svg" alt="" />
+            </div>
+            <div class="result-img">
+              <button class="resultimg-btn">-50%</button>
+              <img src="../fonts/images/articles/amico3.svg" alt="" />
+            </div>
+          </div>
+          <div class="tovar-right">
+            <div class="flex-class tovaright-flex">
+              <div class="right">
+                <h3>192.69 $</h3>
+                <span>Premium</span>
+              </div>
+              <div class="right">
+                <h4>108.99 $</h4>
+                <span>Premium</span>
+              </div>
+            </div>
+            <div class="flex-class">
+              <button class="korzinka-btn">
+                <a href="./korzinka.html">В корзину</a>
+              </button>
+              <img
+                src="../fonts/images/articles/nav-link-img3/feather-icon/shopping-cart.png"
+                alt=""
+              />
+            </div>
+            <div class="flex-class list-flex">
+              <ul>
+                <li>Description:</li>
+                <li>Title:</li>
+                <li>ID:</li>
+              </ul>
+              <ul>
+                <li>Lorem ipsum dolor sit amet consectetur</li>
+                <li>lorem</li>
+                <li>42</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="container">
+        <div class="big-div">
+          <div class="footer-links">
+            <div class="logo">
+              <a href="#"
+                ><img src="../fonts/images/articles/footer-logo.png" alt=""
+              /></a>
+            </div>
+            <a href="#">О компании</a>
+            <a href="#">Контакты</a>
+            <a href="#">Вакансии</a>
+            <a href="#">Статьи</a>
+            <a href="#" class="res-fut"
+              >Политика обработки персональных данных</a
+            >
+          </div>
+          <div class="icons">
+            <a href="https://www.instagram.com/"
+              ><img
+                src="../fonts/images/articles/inst/social/instagram.png"
+                alt="icon"
+            /></a>
+            <a href="https://vk.com/"
+              ><img
+                src="../fonts/images/articles/social/social/vkontakte.png"
+                alt="icon"
+            /></a>
+            <a href="https://www.facebook.com/"
+              ><img
+                src="../fonts/images/articles/facb/social/facebook.png"
+                alt="icon"
+            /></a>
+            <a href="https://ok.ru/"
+              ><img src="../fonts/images/articles/ok/social/ok.png" alt="icon"
+            /></a>
+          </div>
+          <div class="tel">
+            <img
+              src="../fonts/images/articles/tel/feather-icon/phone.png"
+              alt=""
+            />
+            <p>8 800 777 33 33</p>
+          </div>
+        </div>
+
+        <div class="last-footer">
+          <p>Дизайн</p>
+          <a href="#">
+            <img src="../fonts/images/articles/footer-last-logo.png" alt="" />
+          </a>
+        </div>
+      </div>
+    </footer>
+    <script src="../js/modal.js"></script>
+    <script src="../js/catalog.js"></script>
+    <script src="../js/tovar.js"></script>
+  </body>
+</html>

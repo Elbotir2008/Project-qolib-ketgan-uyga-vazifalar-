@@ -1,0 +1,25 @@
+.cards {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  .card-img {
+    .big-img {
+      // width: 272px;
+      height: 160px;
+    }
+    .like {
+      position: absolute;
+      border-radius: 4px;
+      opacity: 0.5;
+      z-index: 99;
+      height: 32px;
+      width: 32px;
+      background: var(--grayscale-lightest, #f3f2f1);
+      border: none;
+      top: 11px;
+      right: 10px;
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+}
